@@ -6,7 +6,6 @@ Console.WriteLine("Hello, World!");
 
 static double GetAvarage(int[] numbers)
 {
-<<<<<<< HEAD
     double evenNewerSum = 0;
     for (int i = 0; i < numbers.Length; i++)
     {
@@ -14,7 +13,6 @@ static double GetAvarage(int[] numbers)
     }
 
     return evenNewerSum / numbers.Length;
-=======
     double newSum = 0;
     for (int i = 0; i < numbers.Length; i++)
     {
@@ -22,7 +20,6 @@ static double GetAvarage(int[] numbers)
     }
 
     return newSum / numbers.Length;
->>>>>>> feature-new
 }
 
 static double getMax(int[] arr)
