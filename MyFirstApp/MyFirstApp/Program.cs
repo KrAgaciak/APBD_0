@@ -13,13 +13,6 @@ static double GetAvarage(int[] numbers)
     }
 
     return evenNewerSum / numbers.Length;
-    double newSum = 0;
-    for (int i = 0; i < numbers.Length; i++)
-    {
-        newSum += numbers[i];
-    }
-
-    return newSum / numbers.Length;
 }
 
 static double getMax(int[] arr)
