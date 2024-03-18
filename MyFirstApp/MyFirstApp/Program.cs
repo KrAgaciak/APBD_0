@@ -6,13 +6,13 @@ Console.WriteLine("Hello, World!");
 
 static double GetAvarage(int[] numbers)
 {
-    double sum = 0;
+    double newSum = 0;
     for (int i = 0; i < numbers.Length; i++)
     {
-        sum += numbers[i];
+        newSum += numbers[i];
     }
 
-    return sum / numbers.Length;
+    return newSum / numbers.Length;
 }
 
 static double getMax(int[] arr)
